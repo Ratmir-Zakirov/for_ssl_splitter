@@ -1,0 +1,7 @@
+rule KATA_Test_YARA_Rules {
+        strings:
+                $s1 = "thequickbrownfxjmpsvalzydg" wide ascii
+
+        condition:
+                all of them
+}
